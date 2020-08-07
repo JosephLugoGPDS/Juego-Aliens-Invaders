@@ -1,0 +1,36 @@
+:root{
+    --shooter:blue;
+    --invader:purple;
+    --boom: red;
+    --laser: orange;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 300px;
+    height: 300px;
+}
+/* 225x20x20=300x300 */
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.shooter {
+    background-color: var(--shooter);
+}
+
+.invader {
+    background-color: var(--invader);
+    border-radius: 10px;
+}
+
+.boom {
+    background-color: var(--boom);
+}
+
+.laser {
+    background-color: var(--laser);
+}
